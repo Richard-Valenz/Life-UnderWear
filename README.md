@@ -12,12 +12,9 @@ In the following archives you can find each electornic component needed and desc
 
 1. _Lilypad Arduino Board_ : This board was the one used for this project due to its special characteristics for wearable technologies.
 
-
 2 _Pulsometer_ : This is a sensor which can detect the heart pulse from the vital signal of our body and plot it as a function of beats                     per minute (BPM) with respect to time. 
 
-
 3. _Liquid Sensor_ : This is a sensor which was specially programmed to output the categorical value of whether if the sensor (which would                        be place inside of the underwear) detectes any kind of humidity produced by the person using it. 
-
 
 4. _Temperature Sensor_ : This is a sensor which can show you the current temperature as a continuous data in Celsius or Fahrenheit                                   degrees. 
 
