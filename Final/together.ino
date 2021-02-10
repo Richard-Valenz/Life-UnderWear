@@ -1,16 +1,16 @@
 #include <OneWire.h>
 #include "DS18B20.h"
 
-// Numer pinu do którego podłaczasz czujnik
+// PIN number you would like to connect with the sensor
 #define ONEWIRE_PIN 8
 
-// Adres czujnika
+// Sensor address
 uint8_t address[8] = {0x28, 0xB1, 0x6D, 0xA1, 0x3, 0x0, 0x0, 0x11}; // Tutaj wklej adres czujnika
 
 OneWire onewire(ONEWIRE_PIN);
 DS18B20 sensors(0x10,0,0,0,0,0,0);
 
-//code copied from arduino.cc 
+
 int pulsePin = A0;                 // Pulse Sensor purple wire connected to analog pin A0
 int humiditySensor = A1;
 int humidity;
@@ -49,7 +49,7 @@ void setup()
 }
 
 
-//  Where the Magic Happens
+
 void loop()
 {
    serialOutput();  
